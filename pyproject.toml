@@ -1,0 +1,17 @@
+[project]
+name = "zm11"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Takumi#rad", email = "nakataku_fc_7272@icloud.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+zm11 = "zm11.main:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

@@ -7,7 +7,9 @@ authors = [
     { name = "Takumi#rad", email = "nakataku_fc_7272@icloud.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "statsmodels>=0.14.5",
+]
 
 [project.scripts]
 zm11 = "zm11.main:app"
